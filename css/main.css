@@ -1,0 +1,61 @@
+#background
+{
+	position:absolute;
+	left: 19%;
+	width: 81%;
+	height: 100%;
+	z-index: -1;
+
+}
+.my-button
+{
+	color:#66CDAA
+}
+.my-button:hover
+{
+	color:Blue;
+}
+form
+{
+	margin-top:5%;
+	color:#66CDAA;
+}
+.strokeT 
+{
+    font: 1,5em Arial, sans-serif;
+    text-shadow: black 1px 1px 0, Yellow -1px -1px 0,
+                 green -1px 1px 0, green 1px -1px 0;
+}
+.strokeF
+{
+    font: 1,5em Arial, sans-serif;
+    text-shadow: red 1px 1px 0, red -1px -1px 0,
+                 red -1px 1px 0, red 1px -1px 0;
+}
+P 
+{
+	border: 1px solid black; /* Толщина рамки в пикселах, тип границы (в данном случае сплошная линия) и
+	цвет линии */
+	padding: 5px; /* Расстояние от текста до рамки */
+	border-radius: 10px; /* Радиус скругления */
+	text-decoration: underline; /* Добавляем подчеркивание */
+	box-shadow: 0 0 5px;
+}
+
+
+#UnderBoard
+{
+	border: 1px solid black; /* Толщина рамки в пикселах,
+	тип границы (в данном случае сплошная линия) и цвет линии */
+	padding: 3px; /* Расстояние от текста до рамки */
+	border-radius: 10px; /* Радиус скругления */
+	box-shadow: 4px 4px;
+}
+
+#board
+{
+	border: 0px solid black; /* Толщина рамки в пикселах,
+	тип границы (в данном случае сплошная линия) и цвет линии */
+	padding: 5px; /* Расстояние от текста до рамки */
+}
+
